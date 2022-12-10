@@ -1,22 +1,29 @@
-package com.finalExam.configuration.mobile;
+package com.finalExam.configuration.web;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.openqa.selenium.support.PageFactory.initElements;
 
-public abstract class WebOperations {
-    
+public class WebOperations {
+
     private final WebDriver driver;
     private final WebDriverWait wait;
-    
+
     private final long timeToWait = 12L;
 
-    public WebOperations (WebDriver driver) {
+    public WebOperations(WebDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, timeToWait);
         initElements(driver, this);
+    }
+
+    public WebOperations(WebDriver driver, WebDriverWait wait) {
+        this.driver = driver;
+        this.wait = wait;
     }
 
     public WebDriver getDriver() {
@@ -59,6 +66,5 @@ public abstract class WebOperations {
         this.waitForVisibility(element);
         element.sendKeys(text);
     }
-
 
 }
