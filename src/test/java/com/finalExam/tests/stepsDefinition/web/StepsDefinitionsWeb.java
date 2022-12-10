@@ -72,7 +72,7 @@ public class StepsDefinitionsWeb {
         homePage.typeOnFirstName(WebData.returnData("user"));
         homePage.typeOnLastName(WebData.returnData("user"));
         homePage.typeOnEmailToSignUp(email);
-        homePage.typeOnPassword(WebData.returnData("password"));
+        homePage.typeOnPasswordToSignUp(WebData.returnData("password"));
         homePage.clickOnSignUpBtn();
         homePage.leaveIframe();
 

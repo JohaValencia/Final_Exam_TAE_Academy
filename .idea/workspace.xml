@@ -5,41 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5c5670c-fce0-4a0b-92e1-d8d05987f928" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalExam/configuration/mobile/DriverManagerMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalExam/configuration/mobile/WebOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalExam/configuration/web/DriverManagerWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalExam/configuration/web/MobileOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/finalExam/reporting/Reporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/pages/WatchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/runners/TestWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/utils/capabilities/CapabilitiesConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/utils/data/WebData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/TutorialScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalexam/tae/configuration/mobile/DriverManagerMobile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalexam/tae/configuration/mobile/Operations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalexam/tae/configuration/web/DriverManagerWeb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalexam/tae/configuration/web/Operations.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalexam/tae/reporting/Reporter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/pageObjects/pages/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/pageObjects/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/pageObjects/pages/WatchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/pageObjects/screens/AddPlansScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/AddPlansScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/pageObjects/screens/BaseScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/BaseScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/pageObjects/screens/DashBoardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/DashBoardScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/pageObjects/screens/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/MenuScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/pageObjects/screens/PrivacyAndLegalScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/PrivacyAndLegalScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/runners/TestMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/runners/TestMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/runners/TestWeb.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/tests/features/disney.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/features/disney.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/tests/features/espn.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/features/espn.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/tests/stepsDefinition/mobile/MobileHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/stepsDefinition/mobile/MobileHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/tests/stepsDefinition/mobile/StepsDefinitionsMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/stepsDefinition/mobile/StepsDefinitionsMobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/tests/stepsDefinition/web/StepsDefinitionsWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/stepsDefinition/web/StepsDefinitionsWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/tests/stepsDefinition/web/WebHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/stepsDefinition/web/WebHooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/utils/capabilities/CapabilitiesConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalexamen/tae/utils/data/WebData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalExam/configuration/mobile/WebOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalExam/configuration/mobile/MobilOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/finalExam/configuration/web/MobileOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/finalExam/configuration/web/WebOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/AddPlansScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/AddPlansScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/BaseScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/BaseScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/DashBoardScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/DashBoardScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/MenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/MenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/PrivacyAndLegalScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/pageObjects/screens/PrivacyAndLegalScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/runners/TestMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/runners/TestMobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/runners/TestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/runners/TestWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/features/disney.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/features/disney.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/stepsDefinition/mobile/MobileHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/stepsDefinition/mobile/MobileHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/stepsDefinition/mobile/StepsDefinitionsMobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/finalExam/tests/stepsDefinition/mobile/StepsDefinitionsMobile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +45,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/Johana Valencia/Desktop/PROJECTS/Final_Exam_TAE_Academy/src/main/java/com",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Johana Valencia/Desktop/PROJECTS/Final_Exam_TAE_Academy/src/main/java/com&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TestWeb" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_Exam_TAE_Academy" />
